@@ -19,11 +19,7 @@ In this work, I analyze Instacart orders dataset to make predictions about futur
 
 **Data Source** 
 <<<<<<< HEAD
-<<<<<<< HEAD
 https://www.kaggle.com/c/instacart-market-basket-analysis/data
-=======
-https://www.kaggle.com/c/instacart-market-basket-analysis/data
->>>>>>> 3b95473ae6e9687e64bb968020fff0ebaf4e0de0
 =======
 https://www.kaggle.com/c/instacart-market-basket-analysis/data
 >>>>>>> 3b95473ae6e9687e64bb968020fff0ebaf4e0de0

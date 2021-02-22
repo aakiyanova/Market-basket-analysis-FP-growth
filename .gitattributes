@@ -1,0 +1,2 @@
+Capstone_Instacart/data filter=lfs diff=lfs merge=lfs -text
+Capstone_Instacart filter=lfs diff=lfs merge=lfs -text
