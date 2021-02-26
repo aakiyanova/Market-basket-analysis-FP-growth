@@ -30,5 +30,10 @@
 - Updates to Streamlit Layout
     - https://blog.streamlit.io/introducing-new-layout-options-for-streamlit/
     
+- Redesigning a Retail Store Based on Association Rule Mining    
+    - http://www.ieomsociety.org/paris2018/papers/370.pdf
     
-
+- Market Basket Analysis
+    - https://www.sciencedirect.com/topics/computer-science/market-basket-analysis
+    
+    
