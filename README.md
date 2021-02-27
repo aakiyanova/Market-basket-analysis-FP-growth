@@ -21,7 +21,7 @@ FP-Growth (Frequent Pattern) is a significantly more efficient algorithm compare
 
 Having done these two steps of data sorting, the algorithm scans for itemsets with support level at least the specified level (e.g. 1000). The FP-trees are built in a way that the root of a tree is conditional upon an item and recursively counts the frequency of the item spotted in an itemset. It works based on a notion that If an item occurs frequently, then a subset(s) of that item should also occur frequently. 
 
-![Food](./assets.chocolate.jpg)
+![](assets.chocolate.jpg)
 
 
 **Visual Representation of the FP-Growth Algorithm**
