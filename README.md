@@ -41,6 +41,7 @@ Red vine tomatoes 4ct USD4.09
 Hass avocados USD3.29 - USD6.79
 
 I would consider offering discounts on bananas, organic bananas to engage customers to start shopping. As customers start a cart adding bananas, they likely would be interested in exploring other products that were often purchased together and are priced higher. The dataset is an online grocery delivery and has an option to offer recommendations suggesting product(s) that were often purchased together by other customers. 
+
 ![](assets/itemset.jpg)
 
 
