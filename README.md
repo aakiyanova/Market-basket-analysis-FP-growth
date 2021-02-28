@@ -33,14 +33,14 @@ Having done these two steps of data sorting, the algorithm scans for itemsets wi
 
 **Key Findings and Recommendations**
 
-Based on the Frequent Item Analysis performed in this work, I would recommend running cross - sales and cross - promotions on items that are frequently purchased together. I noted that ‘bananas’ and ‘organic bananas’ are the most frequently purchased item and an antecedent to many products that are usually priced higher. A bunch of organic bananas is priced between USD1.50 - USD2.50 depending on the retailer (the quote is from Target and Jewel-Osco), while some of the consequent items are priced at:
+Based on the Frequent Item Analysis performed in this work, I would recommend cross-selling and running cross - promotions on items that are frequently purchased together. I noted that ‘bananas’ and ‘organic bananas’ are the most frequently purchased items and an antecedent to many products that are usually priced higher. A bunch of organic bananas is priced between USD1.50 - USD2.50 depending on the retailer (quote source: instacart.com), while some of the consequent items are priced at:
 
-Bag of clementines USD6.99
-100% whole-wheat bread USD3.09 - USD6.30
-Red vine tomatoes 4ct USD4.09
-Hass avocados USD3.29 - USD6.79
+- Bag of clementines USD6.99
+- 100% whole-wheat bread USD3.09 - USD6.30
+- Red vine tomatoes 4ct USD4.09
+- Hass avocados USD3.29 - USD6.79
 
-I would consider offering discounts on bananas, organic bananas to engage customers to start shopping. As customers start a cart adding bananas, they likely would be interested in exploring other products that were often purchased together and are priced higher. The dataset is an online grocery delivery and has an option to offer recommendations suggesting product(s) that were often purchased together by other customers. 
+I would consider offering discounts on bananas, organic bananas to engage customers to start shopping. As customers start a shopping cart, they likely would be interested in exploring other products even if they are priced higher. The dataset is an online grocery delivery and has an option to offer recommendations suggesting product(s) that were often purchased together by other customers in the past. Compared to the Recommendation algorithm using collaborative filtering, association rules do not capture individual preferences and rather look for relationships between products. It provides avenues to making product suggestions based on customer searches and, if executed diligently, is a value-add to customers and an increase in sales for retailers. Here is an example of a recommendation based on products that are bought together:
 
 ![](assets/itemset.jpg)
 
