@@ -36,4 +36,7 @@
 - Market Basket Analysis
     - https://www.sciencedirect.com/topics/computer-science/market-basket-analysis
     
+- Data Science at Instacart: Making On-demand Profitable
+    - https://blog.dominodatalab.com/data-science-instacart/
+    
     
