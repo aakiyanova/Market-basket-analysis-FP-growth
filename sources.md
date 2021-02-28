@@ -42,4 +42,8 @@
 - Instacart Raised Funds
     - https://www.cnbc.com/2020/10/08/instacarts-valuation-has-more-than-doubled-in-2020-to-17point7-billion.html
     
+- Instacart Revenue and Usage Statistics
+    - https://www.businessofapps.com/data/instacart-statistics/
+    
+    
     

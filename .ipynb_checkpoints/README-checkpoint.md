@@ -13,10 +13,11 @@ In this work, I analyze Instacart orders dataset to make predictions about futur
 
 **Background Research**
 
-Instacart is an online grocery delivery service from stores such as Whole Foods, Wegman’s, Costco, and Petco. The company’s business model is based on connecting four sides of a trade: Customers, Product Advertisers, Shoppers, and Retailers. Instacart Revenue comes from delivery fees, often annual memberships, partnerships from companies like Procter & Gamble (30% of all purchases made on the Instacart platform comes from advertisement), and some stores are willing to pay if the delivery service can increase store visits. It is known for its easy-to-use UI, where users have an option to choose the delivery window. Please refer to EDA folder/EDA.ipynb for details on order placement details, including peak and slow hours. 
+Instacart is an online grocery delivery service from stores such as Mariano’s, Jewel-Osco, Target, Costco, and many more. The company’s business model is based on connecting four sides of a trade: Customers, Product Advertisers, Shoppers, and Retailers. Instacart Revenue comes from delivery fees, often annual memberships, partnerships from companies like Procter & Gamble (30% of all purchases made on the Instacart platform comes from advertisement), and some stores are willing to pay if the delivery service can increase store visits. It is known for its easy-to-use UI, where users have an option to choose the delivery window. Please refer to EDA folder/EDA.ipynb for details on order placement details, including peak and slow hours. 
 
 90% of Instacart’s customers are returning customers, while express customers spend on average USD500 a month. The company allocates substantial resources to estimate customer demand, including building probabilistic models on potential customer demand given 100% supply availability. Weather is an important factor in demand estimation for the company as more customers tend to order groceries online if it is cold, snowing, or raining and the opposite if the weather is warm and sunny. Another important piece that Instacart forecasts is order fulfillment time - the company uses in-house route algorithm, rather than using Google Maps and employs gradient boosting decision trees model as it encounters a lot of variation and this model is prone to overfitting. 
 
+In 4Q2020, Instacart raised USD200 million doubling the company valuation since the beginning of 2020 increasing to USD17.7 billion. The company benefited from surged demand in online grocery deliveries as a result of coronavirus pandemic. In the 1H2020, Instacart increased number of shoppers from under 100,000 to 400,000 and expected company Revenue to hit USD35 billion. 
 
 **Model Details**
 
@@ -24,14 +25,25 @@ FP-Growth (Frequent Pattern) is a significantly more efficient algorithm compare
 
 Having done these two steps of data sorting, the algorithm scans for itemsets with support level at least the specified level (e.g. 1000). The FP-trees are built in a way that the root of a tree is conditional upon an item and recursively counts the frequency of the item spotted in an itemset. It works based on a notion that If an item occurs frequently, then a subset(s) of that item should also occur frequently. 
 
-**Example of Constructing Conditional FP-Tree**
+**Visual Representation of the FP-Growth Algorithm**
 ![](assets/FP_tree.jpg)
 
 
 
-**Visual Representation of the FP-Growth Algorithm**
 
 **Key Findings and Recommendations**
+
+Based on the Frequent Item Analysis performed in this work, I would recommend running cross - sales and cross - promotions on items that are frequently purchased together. I noted that ‘bananas’ and ‘organic bananas’ are the most frequently purchased item and an antecedent to many products that are usually priced higher. A bunch of organic bananas is priced between USD1.50 - USD2.50 depending on the retailer (the quote is from Target and Jewel-Osco), while some of the consequent items are priced at:
+
+Bag of clementines USD6.99
+100% whole-wheat bread USD3.09 - USD6.30
+Red vine tomatoes 4ct USD4.09
+Hass avocados USD3.29 - USD6.79
+
+I would consider offering discounts on bananas, organic bananas to engage customers to start shopping. As customers start a cart adding bananas, they likely would be interested in exploring other products that were often purchased together and are priced higher. The dataset is an online grocery delivery and has an option to offer recommendations suggesting product(s) that were often purchased together by other customers. 
+![](assets/itemset.jpg)
+
+
 
 **File Directory**
 
