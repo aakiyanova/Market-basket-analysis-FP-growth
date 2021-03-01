@@ -45,5 +45,9 @@
 - Instacart Revenue and Usage Statistics
     - https://www.businessofapps.com/data/instacart-statistics/
     
+- Market Basket Analysis and Recommendations
+    - https://www.kdnuggets.com/2019/12/market-basket-analysis.html
+    
+    
     
     

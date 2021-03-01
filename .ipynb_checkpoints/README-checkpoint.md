@@ -1,7 +1,7 @@
 # Capstone: Market Basket Analysis
 Capstone Project at the General Assembly, 2021
 
-**Table of Contents**
+###Table of Contents
 
 **Problem Statement**
 
@@ -31,7 +31,9 @@ Having done these two steps of data sorting, the algorithm scans for itemsets wi
 
 
 
-**Key Findings and Recommendations**
+###Key Findings and Recommendations
+
+**Promotions and Cross-selling**
 
 Based on the Frequent Item Analysis performed in this work, I would recommend cross-selling and running cross - promotions on items that are frequently purchased together. I noted that ‘bananas’ and ‘organic bananas’ are the most frequently purchased items and an antecedent to many products that are usually priced higher. A bunch of organic bananas is priced between USD1.50 - USD2.50 depending on the retailer (quote source: instacart.com), while some of the consequent items are priced at:
 
@@ -40,10 +42,13 @@ Based on the Frequent Item Analysis performed in this work, I would recommend cr
 - Red vine tomatoes 4ct USD4.09
 - Hass avocados USD3.29 - USD6.79
 
-I would consider offering discounts on bananas, organic bananas to engage customers to start shopping. As customers start a shopping cart, they likely would be interested in exploring other products even if they are priced higher. The dataset is an online grocery delivery and has an option to offer recommendations suggesting product(s) that were often purchased together by other customers in the past. Compared to the Recommendation algorithm using collaborative filtering, association rules do not capture individual preferences and rather look for relationships between products. It provides avenues to making product suggestions based on customer searches and, if executed diligently, is a value-add to customers and an increase in sales for retailers. Here is an example of a recommendation based on products that are bought together:
+I would consider offering discounts on bananas, organic bananas to engage customers to start shopping. As customer starts a shopping cart, they likely would be interested in exploring other products even if these products are priced higher. The dataset is from an online grocery delivery service and the business has an opportunity to offer online recommendations suggesting product(s) that were often purchased together by other customers in the past. Compared to the Recommendation algorithm using collaborative filtering, association rules does not capture individual preferences and rather looks for relationships between items within each distinct transaction. It provides avenues to making product suggestions based on customer searches and, if executed diligently, improves customers experience and an increase in sales for retailers. 
 
-![](assets/itemset.jpg)
+**Store Layout example**
 
+I created Tableau dashboards to illustrate relationships between store aisles and store departments. Details of the two dashboards can be found here (https://tabsoft.co/3b0xoCq). Based on the FP-Growth Algorithm and Tableau dashboards, I recommend the following store layout. Please note that layout excludes certain departments as they did not prove to  indicate strong association rules patterns.
+
+![](assets/store_layout.jpg)
 
 
 **File Directory**
