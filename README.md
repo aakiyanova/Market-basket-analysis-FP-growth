@@ -48,7 +48,7 @@ I would consider offering discounts on bananas, organic bananas to engage custom
 
 I created Tableau dashboards to illustrate relationships between store aisles and store departments. Details of the two dashboards can be found here (https://tabsoft.co/3b0xoCq). Based on the FP-Growth Algorithm and Tableau dashboards, I recommend the following store layout. Please note that layout excludes certain departments as they did not prove to  indicate strong association rules patterns.
 
-![]('assets/FP-tree.jpg')
+![]('FP-tree.jpg')
 
 
 ### File Directory
