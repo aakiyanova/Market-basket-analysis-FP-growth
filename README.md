@@ -3,15 +3,15 @@ Capstone Project at the General Assembly, 2021
 
 ### Table of Contents
 
-**Problem Statement**
+### Problem Statement
 
 Analyze Instacart dataset and determine market basket mix based on previous customer order history. 
 
-**Executive Summary**
+### Executive Summary
 
 In this work, I analyze Instacart orders dataset to make predictions about future customer purchases.
 
-**Background Research**
+### Background Research
 
 Instacart is an online grocery delivery service from stores such as Mariano’s, Jewel-Osco, Target, Costco, and many more. The company’s business model is based on connecting four sides of a trade: Customers, Product Advertisers, Shoppers, and Retailers. Instacart Revenue comes from delivery fees, often annual memberships, partnerships from companies like Procter & Gamble (30% of all purchases made on the Instacart platform comes from advertisement), and some stores are willing to pay if the delivery service can increase store visits. It is known for its easy-to-use UI, where users have an option to choose the delivery window. Please refer to EDA folder/EDA.ipynb for details on order placement details, including peak and slow hours. 
 
@@ -19,7 +19,7 @@ Instacart is an online grocery delivery service from stores such as Mariano’s,
 
 In 4Q2020, Instacart raised USD200 million doubling the company valuation since the beginning of 2020 increasing to USD17.7 billion. The company benefited from surged demand in online grocery deliveries as a result of coronavirus pandemic. In the 1H2020, Instacart increased number of shoppers from under 100,000 to 400,000 and expected company Revenue to hit USD35 billion. 
 
-**Model Details**
+### Model Details
 
 FP-Growth (Frequent Pattern) is a significantly more efficient algorithm compared to Apriori as the dataset does not need to be scanned over and over again and no candidate generation is required. It scans the dataset and counts frequencies of each item in a dataset, sorting them in descending order and leaving items that are at or above a state support level. The algorithm then loops through the remaining itemsets to build FP-tree of nodes starting from the root - the most frequent occurring item - then the next until it reaches the least represented item in a dataset. When items are not part of the branch, a new branch will be created. The algorithm employs a recursive divide-and-conquer approach to identify frequent itemsets traversing the FP-tree. 
 
@@ -48,12 +48,14 @@ I would consider offering discounts on bananas, organic bananas to engage custom
 
 I created Tableau dashboards to illustrate relationships between store aisles and store departments. Details of the two dashboards can be found here (https://tabsoft.co/3b0xoCq). Based on the FP-Growth Algorithm and Tableau dashboards, I recommend the following store layout. Please note that layout excludes certain departments as they did not prove to  indicate strong association rules patterns.
 
-![](assets/store_layout.jpg)
 
 
-**File Directory**
+![](assets/store_layout.jpg = 250x)
 
-**Data Dictionary**
 
-**Citations**
+### File Directory
+
+### Data Dictionary
+
+### Citations
 See sources.md
