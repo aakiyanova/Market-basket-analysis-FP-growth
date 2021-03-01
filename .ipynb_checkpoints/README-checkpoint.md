@@ -1,7 +1,7 @@
 # Capstone: Market Basket Analysis
 Capstone Project at the General Assembly, 2021
 
-###Table of Contents
+### Table of Contents
 
 **Problem Statement**
 
@@ -31,7 +31,7 @@ Having done these two steps of data sorting, the algorithm scans for itemsets wi
 
 
 
-###Key Findings and Recommendations
+### Key Findings and Recommendations
 
 **Promotions and Cross-selling**
 
@@ -48,7 +48,7 @@ I would consider offering discounts on bananas, organic bananas to engage custom
 
 I created Tableau dashboards to illustrate relationships between store aisles and store departments. Details of the two dashboards can be found here (https://tabsoft.co/3b0xoCq). Based on the FP-Growth Algorithm and Tableau dashboards, I recommend the following store layout. Please note that layout excludes certain departments as they did not prove to  indicate strong association rules patterns.
 
-![](Capstone/assets/store_layout.jpg)
+![](assets/store_layout.jpg)
 
 
 **File Directory**
