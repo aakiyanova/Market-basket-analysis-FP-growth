@@ -1,0 +1,28 @@
+antecedent,consequent,confidence_level
+'banana',bartlett pears,0.123198979
+'banana',broccoli crown,0.103162374
+'banana',granny smith apples,0.098848539
+'banana',clementines bag,0.098161971
+'bag of organic bananas',organic navel orange,0.094859287
+'bag of organic bananas',organic d'anjou pears,0.09013494
+'banana',blueberries,0.088438481
+'banana',small hass avocado,0.087674389
+'sparkling water grapefruit',lime sparkling water,0.087118084
+'bag of organic bananas',organic bartlett pear,0.086401781
+'banana',red vine tomato,0.083860389
+'banana',orange bell pepper,0.083615819
+'banana',roma tomato,0.083247931
+'banana',grape white/green seedless,0.083181139
+'banana',boneless skinless chicken breasts,0.08092777
+'limes',jalapeno peppers,0.080841886
+'banana',red peppers,0.078081011
+'banana',red onion,0.075706469
+'bag of organic bananas',hass avocados,0.068521118
+'bag of organic bananas',organic ginger root,0.065773902
+'bag of organic bananas',unsweetened almondmilk,0.065446371
+'strawberries',raspberries,0.064928677
+'banana',half & half,0.064343786
+'banana',sparkling water grapefruit,0.062320311
+'banana',green bell pepper,0.058178704
+'organic garlic',organic italian parsley bunch,0.054495188
+'organic hass avocado',bag of organic bananas,0.05051301

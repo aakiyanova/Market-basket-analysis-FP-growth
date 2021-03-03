@@ -1,0 +1,26 @@
+antecedent,consequent_1,consequent_2,confidence_level
+'bag of organic bananas',organic hass avocado,organic raspberries,0.49353049907578556
+'bag of organic bananas',organic hass avocado,organic strawberries,0.4343065693430657
+'bag of organic bananas',organic raspberries,organic strawberries,0.37037037037037035
+'organic strawberries',bag of organic bananas,organic raspberries,0.3437334743521946
+'bag of organic bananas',organic baby spinach,organic strawberries,0.3395026026604974
+'organic strawberries',bag of organic bananas,organic hass avocado,0.27663696241766755
+'organic strawberries',bag of organic bananas,organic baby spinach,0.2495748299319728
+'organic baby spinach',bag of organic bananas,organic strawberries,0.18195908245505268
+'bag of organic bananas',organic navel orange,nan,0.17908682280577243
+'banana',organic fuji apple,nan,0.16619500900437356
+'bag of organic bananas',organic broccoli,nan,0.15602443087173792
+'banana',roma tomato,nan,0.15268329554043839
+'banana',red peppers,nan,0.1526771514401838
+'banana',blueberries,nan,0.14547206165703275
+'banana',clementines bag,nan,0.144961016459717
+'limes',jalapeno peppers,nan,0.14230019493177387
+'limes',bunched cilantro,nan,0.14061757719714965
+'banana',orange bell pepper,nan,0.1340042372881356
+'banana',boneless skinless chicken breasts,nan,0.13367499466154176
+'sparkling water grapefruit',lime sparkling water,nan,0.1264177693761815
+'banana',red vine tomato,nan,0.12559713375796178
+'banana',100% whole wheat bread,nan,0.12448674878686077
+'bag of organic bananas',organic unsweetened almond milk,nan,0.12398765908214424
+'bag of organic bananas',hass avocados,nan,0.12300587741393787
+'banana',cucumber kirby,nan,0.11240048576440427
