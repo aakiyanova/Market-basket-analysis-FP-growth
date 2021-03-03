@@ -80,7 +80,7 @@ I noted that ‘bananas’ and ‘organic bananas’ are the most frequently pur
 - 100% whole-wheat bread USD3.09 - USD6.30
 - Red vine tomatoes 4ct USD4.09
 - Hass avocados USD3.29 - USD6.79
-- seedless grapes, 1lb USD4.89
+- Seedless grapes 1lb USD4.89
 
 I would consider offering discounts on bananas, organic bananas to engage customers to start shopping. As customer starts a shopping cart, they likely would be interested in exploring other products even if these products are priced higher. The dataset is from an online grocery delivery service and the business has an opportunity to offer online recommendations suggesting product(s) that were often purchased together by other customers in the past. Compared to the Recommendation algorithm using collaborative filtering, association rules does not capture individual preferences and rather looks for relationships between items within each distinct transaction. It provides avenues to making product suggestions based on customer searches and, if executed diligently, improves customers experience and an increase in sales for retailers. 
 
@@ -108,7 +108,7 @@ Based on association rule mining, I built a streamlit app that produces items fr
 - assets: images referenced in this work  
 
 - results/
-    - rules.csv: Association rule mining results modeling on 5% of the data
+    - rules_5_percent.csv: Association rule mining results modeling on 5% of the data
     - rules_30_percent.csv: Association rule mining results modeling on 30% of the data
     - rules_50_percent.csv: Association rule mining results modeling on 50% of the data
 
