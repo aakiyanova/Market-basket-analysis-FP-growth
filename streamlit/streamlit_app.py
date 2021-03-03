@@ -61,7 +61,7 @@ product_choice = st.selectbox(
 )
 
 # create df filters on the antecedent column
-filter_strawberries = rules['antecedent'] == "'organic_strawberries'"
+filter_strawberries = rules['antecedent'] == "'organic strawberries'"
 filter__hass_avocado = rules['antecedent'] == "'organic hass avocado'"
 filter_garlic = rules['antecedent'] == "'organic garlic'"
 filter_bag_bananas = rules['antecedent'] == "'bag of organic bananas'"
@@ -78,7 +78,7 @@ filter_avocado = rules['antecedent'] == "'organic avocado'"
 # button to showcase the results
 if st.button('See Basket'):
         # apply filters
-        if product_choice == "'strawberries'":
+        if product_choice == "'organic strawberries'":
             st.write(rules[filter_strawberries])
         if product_choice == "'organic hass avocado'":
             st.write(rules[filter_hass_avocado])
@@ -124,7 +124,7 @@ df, numeric_cols, text_cols, unique_aisle = load_data()
 
 # header of Dashboard + explanation
 st.header("**Data Dashboard**")
-st.write("The dashboard allows to interactively explore the Instacart order data")
+st.write("Please select features and aisle names in the sidebar to explore the Instacart order data")
 
 # give sidebar a heading
 st.sidebar.header('Settings')
@@ -149,6 +149,6 @@ df = df[df['aisle'] == aisle_dropdown]
 df_features = df[feature_selection]
 
 # bar plot the dashboard results
-plotly_figure = px.bar(data_frame=df_features, x=df_features.index, y=feature_selection, title=(str.capitalize(aisle_dropdown) + ' ' + 'sales'))
+plotly_figure = px.bar(data_frame=df_features, x=feature_selection, y=df_features.index, title=(str.capitalize(aisle_dropdown) + ' ' + 'sales'))
 # print the bar plot
 st.plotly_chart(plotly_figure)

@@ -18,17 +18,18 @@ March, 2021
 - Key Findings and Recommendations
     - Promotions and Cross-selling
     - Store Layout
+- Streamlit App    
 - File Directory
 - Data Dictionary
 - Citations
 
 #### Problem Statement
 
-Analyze Instacart dataset and determine market basket mix based on previous customer order history. 
+Perform Market Basket Analysis on Instacart data and identify products that are frequently purchased together. Provide recommendations based on the results of the analysis. 
 
 #### Executive Summary
 
-In this work, I analyze Instacart orders dataset to make predictions about future customer purchases.
+In this work, I analyzed Instacart 2017 data employing FP-Growth algorithm to identify relationships between items in customer orders. Instacart is an online grocery delivery service from retailers including Costco, Target, Wegmans, and Aldi. Market Basket Analysis is used extensively in retail for product placement, store shelf arrangement, running cross - promotions, and customer retention. While exploring the data I looked at metrics such as busiest and slowest days of week, hours of day, top selling products and aisles, customer reorder cycle, and number of products per order. For modeling purposes, association rule mining was conducted on 5%, 30%, 50%. Due to the size of the order data, it made sense to test the algorithm on a portion of the data and model on a larger size after the concept has been proven. Support level of 1000 transactions and a confidence level of 10% was used in this work. Results of the analysis revealed that bananas and bag of organic bananas are top selling products and most common antecedent. Based on the outcome, I formulated suggested store layout and recommended running cross-sales, cross-promotions on items frequently purchased together. 
 
 #### Background Research
 
@@ -73,12 +74,13 @@ I modeled on 5% of the data in jupyter lab, used AWS Sagemaker for modeling on 3
 
 **Promotions and Cross-selling**
 
-Based on the Frequent Item Analysis performed in this work, I would recommend cross-selling and running cross - promotions on items that are frequently purchased together. I noted that ‘bananas’ and ‘organic bananas’ are the most frequently purchased items and an antecedent to many products that are usually priced higher (please see results folder for more details). A bunch of organic bananas is priced between USD1.50 - USD2.50 depending on the retailer (quote source: instacart.com), while some of the consequent items are priced at:
+I noted that ‘bananas’ and ‘organic bananas’ are the most frequently purchased items and represent 82% of all antecedents to products that are usually priced higher (please see results folder for more details). Based on the Frequent Item Analysis performed in this work, I would recommend cross-selling and running cross - promotions on items that are frequently purchased together. A bunch of organic bananas is priced between USD1.50 - USD2.50 depending on the retailer (quote source: instacart.com), while some of the consequent items are priced at:
 
 - Bag of clementines USD6.99
 - 100% whole-wheat bread USD3.09 - USD6.30
 - Red vine tomatoes 4ct USD4.09
 - Hass avocados USD3.29 - USD6.79
+- seedless grapes, 1lb USD4.89
 
 I would consider offering discounts on bananas, organic bananas to engage customers to start shopping. As customer starts a shopping cart, they likely would be interested in exploring other products even if these products are priced higher. The dataset is from an online grocery delivery service and the business has an opportunity to offer online recommendations suggesting product(s) that were often purchased together by other customers in the past. Compared to the Recommendation algorithm using collaborative filtering, association rules does not capture individual preferences and rather looks for relationships between items within each distinct transaction. It provides avenues to making product suggestions based on customer searches and, if executed diligently, improves customers experience and an increase in sales for retailers. 
 
@@ -93,6 +95,9 @@ I created Tableau dashboards to illustrate relationships between store aisles an
 
 <img src=assets/scheme.jpg style="width:800px;height:380px"/>
 
+#### Streamlit App
+
+Based on association rule mining, I built a streamlit app that produces items frequently purchased together when user chooses a product from the drop-down menu. I have also included an interactive dashboard allowing users to explore the data in the app (please see streamlit folder for details).
 
 #### File Directory
 
@@ -103,9 +108,9 @@ I created Tableau dashboards to illustrate relationships between store aisles an
 - assets: images referenced in this work  
 
 - results/
-    - rules.csv: Association rules results modeling on 5% of the data
-    - rules_30_percent.csv: Association rules results modeling on 30% of the data
-    - rules_50_percent.csv: Association rules results modeling on 50% of the data
+    - rules.csv: Association rule mining results modeling on 5% of the data
+    - rules_30_percent.csv: Association rule mining results modeling on 30% of the data
+    - rules_50_percent.csv: Association rule mining results modeling on 50% of the data
 
 - cleaning/
     - reading_cleaning_data.ipynb: data reading, cleaning and organizing dataframes
