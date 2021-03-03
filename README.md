@@ -124,14 +124,14 @@ I created Tableau dashboards to illustrate relationships between store aisles an
 
 #### Data Dictionary
 
-<h3 align="center">aisles.csv</h3> 
+aisles.csv 
 
 | Column name | Description |           
 |-------------|-------------|
 | aisle_id | Store Aisle ID |
 | aisle | Store Aisle Name |
 
-<h3 align="center">departments.csv</h3> 
+departments.csv 
 
 
 | Column name | Description |
@@ -139,7 +139,7 @@ I created Tableau dashboards to illustrate relationships between store aisles an
 | department_id | Store Department ID |
 | department | Store Department Name |
 
-<h3 align="center">order_products__.csv</h3> 
+order_products__.csv 
 
 | Column name | Description |
 |-------------|-------------|
@@ -148,7 +148,7 @@ I created Tableau dashboards to illustrate relationships between store aisles an
 | add_to_cart_order | Order in which product was added to cart |
 | reordered | 1 = reordered, 0 = not reordered |
 
-<h3 align="center">orders.csv</h3> 
+orders.csv
 
 | Column name | Description |
 |-------------|-------------|
@@ -160,7 +160,7 @@ I created Tableau dashboards to illustrate relationships between store aisles an
 | order_hour_of_day | Hour of day when order was placed |
 | days_since_prior_order | Number of days since prior order |
 
-<h3 align="center">products.csv</h3> 
+products.csv
 
 | Column name | Description |
 |-------------|-------------|
@@ -168,8 +168,6 @@ I created Tableau dashboards to illustrate relationships between store aisles an
 | product_name | Product Name |
 | aisle_id | Store Aisle ID |
 | department_id | Store Department ID |
-
-<h3 align="center">departments.csv</h3> 
 
 See the link for full data details (https://www.kaggle.com/c/instacart-market-basket-analysis/data). 
 
