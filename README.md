@@ -108,7 +108,7 @@ Based on association rule mining, I built a streamlit app that produces items fr
 - assets: images referenced in this work  
 
 - results/
-    - rules.csv: Association rule mining results modeling on 5% of the data
+    - rules_5_percent.csv: Association rule mining results modeling on 5% of the data
     - rules_30_percent.csv: Association rule mining results modeling on 30% of the data
     - rules_50_percent.csv: Association rule mining results modeling on 50% of the data
 
