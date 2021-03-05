@@ -57,22 +57,22 @@ st.write(
 #ask user to select a product
 product_choice = st.selectbox(
     ('Select Item'),
-    rules['antecedent']
+    rules['Antecedent']
 )
 
 # create df filters on the antecedent column
-filter_strawberries = rules['antecedent'] == "'organic strawberries'"
-filter__hass_avocado = rules['antecedent'] == "'organic hass avocado'"
-filter_garlic = rules['antecedent'] == "'organic garlic'"
-filter_bag_bananas = rules['antecedent'] == "'bag of organic bananas'"
-filter_yogurt = rules['antecedent'] == "'icelandic style skyr blueberry non-fat yogurt'"
-filter_soda = rules['antecedent'] == "'soda'"
-filter_banana = rules['antecedent'] == "'banana'"
-filter_zucchini = rules['antecedent'] == "'organic zucchini'"
-filter_lemon = rules['antecedent'] == "'large lemon'"
-filter_spinach = rules['antecedent'] == "'organic baby spinach'"
-filter_lemon = rules['antecedent'] == "'large lemon'"
-filter_avocado = rules['antecedent'] == "'organic avocado'"
+filter_strawberries = rules['Antecedent'] == "'organic strawberries'"
+filter__hass_avocado = rules['Antecedent'] == "'organic hass avocado'"
+filter_garlic = rules['Antecedent'] == "'organic garlic'"
+filter_bag_bananas = rules['Antecedent'] == "'bag of organic bananas'"
+filter_yogurt = rules['Antecedent'] == "'icelandic style skyr blueberry non-fat yogurt'"
+filter_soda = rules['Antecedent'] == "'soda'"
+filter_banana = rules['Antecedent'] == "'banana'"
+filter_zucchini = rules['Antecedent'] == "'organic zucchini'"
+filter_lemon = rules['Antecedent'] == "'large lemon'"
+filter_spinach = rules['Antecedent'] == "'organic baby spinach'"
+filter_lemon = rules['Antecedent'] == "'large lemon'"
+filter_avocado = rules['Antecedent'] == "'organic avocado'"
 
 
 # button to showcase the results
